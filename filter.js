@@ -27,18 +27,5 @@ function handleCategoryFilter(event) {
     product.classList.add('show');
   });
 
-  const filteredItems = products.filter(p => p.category > "budget");
- 
-  // Function to filter products by category
-  function filterProductsByCategory(category) {
-    const filteredProducts = products.filter((product) => product.category === category);
-    return filteredProducts;
-  }
-  
-  // Example usage:
-  const categoryToFilter = "budget"; // Replace with the desired category
-  const filteredProductsArray = filterProductsByCategory(categoryToFilter);
-  console.log(filteredProductsArray);
-  
 
   
